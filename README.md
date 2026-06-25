@@ -1,5 +1,16 @@
-# FamilyEventPlanner
-Family Event Planner
+# Family Event Planner
+
+> Full Stack Event Management Platform built with Angular 20, Java 21, Spring Boot, PostgreSQL and deployed through a modern DevOps workflow using GitHub Actions, Docker and Terraform on GCP.
+
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-green)
+![Angular](https://img.shields.io/badge/Angular-20-red)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-blue)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-black)
+![GCP](https://img.shields.io/badge/Google%20Cloud-GCP-4285F4)
+
 <p align="center"> <img src="./docs/logo-2.png" alt="Family Event Planner Logo" width="250"> </p>
 Présentation
 Family Event Planner est une application web permettant aux familles et groupes d'amis d'organiser facilement leurs événements privés.
