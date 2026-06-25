@@ -1,143 +1,74 @@
-# Family Event Planner
-
-> Full Stack Event Management Platform built with Angular 20, Java 21, Spring Boot, PostgreSQL and deployed through a modern DevOps workflow using GitHub Actions, Docker and Terraform on GCP.
-
-![Java](https://img.shields.io/badge/Java-21-orange)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-green)
-![Angular](https://img.shields.io/badge/Angular-20-red)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-blue)
-![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
-![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-black)
-![GCP](https://img.shields.io/badge/Google%20Cloud-GCP-4285F4)
-
-<p align="center"> <img src="./docs/logo-2.png" alt="Family Event Planner Logo" width="250"> </p>
-Présentation
-Family Event Planner est une application web permettant aux familles et groupes d'amis d'organiser facilement leurs événements privés.
-L'application centralise l'ensemble des échanges autour d'un événement :
-Création d'événements
-Gestion des invités
-Répartition des contributions
-Tableau de bord de suivi
-Messagerie collaborative
-Gestion des présences
-Le projet a été conçu dans une approche Full Stack moderne avec une architecture REST, un frontend Angular et un backend Java Spring Boot.
-Aperçu de l'application
-Page d'accueil
-<p align="center"> <img src="./docs/Accueil.jpeg" alt="Accueil" width="900"> </p>
-La page d'accueil présente les fonctionnalités principales de la plateforme et permet à un utilisateur de créer ou rejoindre un événement.
-Dashboard Organisateur
-<p align="center"> <img src="./docs/dashboad.jpeg" alt="Dashboard" width="900"> </p>
-Le tableau de bord permet à l'organisateur de :
-gérer ses événements ;
-suivre les réponses des invités ;
-consulter les contributions ;
-communiquer avec les participants.
-Fonctionnalités
-Organisateur
-Création d'événements
-Modification des informations
-Gestion des participants
-Gestion des contributions
-Consultation des statistiques de participation
-Messagerie
-Invité
-Consultation d'un événement
-Confirmation de présence
-Proposition d'une contribution
-Participation aux échanges
-Contributions collaboratives
-Les participants peuvent indiquer ce qu'ils apportent :
-Boissons
-Desserts
-Entrées
-Vaisselle
-Matériel
-L'objectif est d'éviter les doublons et de faciliter l'organisation.
-Architecture technique
-Stack utilisée
-Backend
-Java 21
-Spring Boot 3
-Spring Security
-Spring Data JPA
-Hibernate
-JWT
-Frontend
-Angular 20
-TypeScript
-Angular Router
-RxJS
-Base de données
-PostgreSQL
-Supabase
-DevOps
-Docker
-GitHub Actions
-Terraform
-Google Cloud Platform (GCP)
-Modèle de données
-Schéma de base de données
-<p align="center"> <img src="./docs/supabase-schema-zyzkvoegjwfzkxmnbkyz.png" alt="BDD" width="1000"> </p>
-Le modèle de données a été conçu autour des principales entités métier :
-User
-Event
-Invitation
-Contribution
-Message
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e19d0cfd-b5b1-4add-aabd-71fecb54e74c" width="400">
+</p>
 
 
-Intégration Continue (CI)
-Pipeline GitHub Actions
-<p align="center"> <img src="./docs/build-and-deploy.png" alt="CI/CD" width="900"> </p>
-Le projet dispose d'un pipeline GitHub Actions permettant :
-Build automatique
-Exécution des tests
-Vérification de la qualité du code
-Préparation du déploiement
-Cette automatisation garantit que chaque modification respecte les critères de qualité définis.
-Infrastructure as Code
-Provisionnement Terraform
-<p align="center"> <img src="./docs/terraform.png" alt="Terraform" width="900"> </p>
-L'infrastructure est gérée via Terraform afin de :
-versionner l'infrastructure ;
-automatiser les déploiements ;
-assurer la reproductibilité des environnements.
-Le projet inclut notamment :
-Configuration du provider GCP
-Gestion des variables d'environnement
-Déploiement automatisé des ressources cloud
-Sécurité
-Authentification JWT
-Gestion des rôles
-Validation des entrées utilisateur
-Protection des endpoints REST
-Gestion sécurisée des variables sensibles
-Perspectives d'évolution
-Notifications temps réel via WebSocket
-Envoi d'emails automatiques
-Calendrier partagé
-Génération de listes de courses
-Application mobile
-Compétences démontrées
-Développement
-Java 21
-Spring Boot
-Angular 20
-REST API
-PostgreSQL
-DevOps
-Docker
-GitHub Actions
-Terraform
-Google Cloud Platform
-Architecture
-Architecture multicouche
-Séparation des responsabilités
-Gestion des dépendances
-Sécurisation d'API REST
-Auteur
-Daniel LANDALLY
-Développeur Full Stack Java / Spring Boot & Angular
-Projet personnel réalisé dans une démarche de montée en compétences sur les pratiques modernes de développement logiciel, d'architecture applicative et de DevOps.
+<h1 align="center">Family Event Planner</h1>
 
+<p align="center">
+A modern event management platform built with Angular 20, Java 21 and deployed through a complete DevOps pipeline on Google Cloud Platform.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-21-orange">
+  <img src="https://img.shields.io/badge/Spring%20Boot-3-green">
+  <img src="https://img.shields.io/badge/Angular-20-red">
+  <img src="https://img.shields.io/badge/PostgreSQL-Supabase-blue">
+  <img src="https://img.shields.io/badge/Docker-Containerized-blue">
+  <img src="https://img.shields.io/badge/Terraform-IaC-purple">
+  <img src="https://img.shields.io/badge/GCP-Cloud-4285F4">
+</p>
+
+## Overview
+
+![Application](https://github.com/user-attachments/assets/703c829e-50a8-4238-a7bf-e804b0adaf36)
+
+## Key Features
+
+- Event creation and management
+- Guest invitation system
+- Collaborative contribution planning
+- Real-time event dashboard
+- JWT secured REST API
+- Responsive Angular frontend
+
+## Engineering Highlights
+
+- Java 21 & Spring Boot backend
+- Angular 20 standalone architecture
+- PostgreSQL database hosted on Supabase
+- JWT Authentication & Authorization
+- CI/CD pipeline with GitHub Actions
+- Infrastructure as Code with Terraform
+- Deployment targeting Google Cloud Platform
+
+## Data Model
+
+![Database Schema](https://github.com/user-attachments/assets/d8624c27-b502-4b8f-a857-ebc8b5974646)
+
+
+## CI/CD Pipeline
+
+![GitHub Actions](https://github.com/user-attachments/assets/f223ccf8-ce4b-4f2a-830d-b84289cd881a)
+
+## Infrastructure as Code (Terraform)
+
+![Terraform](https://github.com/user-attachments/assets/2f9df0f5-e003-426c-a019-a908d8626e83)
+
+
+Infrastructure provisioning managed with Terraform for reproducible cloud environments.
+
+## What I Learned
+
+This project allowed me to strengthen my skills in:
+
+- REST API design
+- Angular application architecture
+- Database modelling
+- Spring Security and JWT
+- Docker containerization
+- CI/CD automation
+- Infrastructure as Code with Terraform
+- Cloud deployment concepts on GCP
+
+🌐 **Production Link:** [familyeventsplanner.org](https://familyeventsplanner.org/)
